@@ -1,0 +1,6 @@
+
+findElement	                                                 findElements
+Returns the first matching web element if multiple 
+web elements are discovered by the locator	               Returns a list of multiple matching web elements
+Throws NoSuchElementException if the element is not found	Returns an empty list if no matching element is found
+Detects a unique web element	                                Returns a collection of matching elements
